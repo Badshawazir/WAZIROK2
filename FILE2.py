@@ -25,7 +25,7 @@ try:
     open('.prox.txt','w').write(prox)
 except Exception as e:
     print('\tplzz wait......')
-prox=open('.prox.txt','r').read().splitlines()
+
 
 header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1 ;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]"}
 ugen = [
